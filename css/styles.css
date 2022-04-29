@@ -1,0 +1,168 @@
+
+.navbar-brand img {
+    width: 65px;
+    height: 55px;
+    border-radius: 20px;
+}
+
+
+:root {
+    --h1: #130F49;
+    --blue: #34A1CD; 
+    --dark-purple: #55527C;
+    --grey: #B4B2C5;
+    --pink: #EA4C89;
+    --circle: #F4F3FF;
+    --light-pink: #FFF5F6;
+    --light-purple: #ADA8FF;
+    --light-blue: #E9F9FF;
+}
+
+.nav-item {
+    margin-left: 70px;
+}
+
+.image img {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px ; 
+}
+
+.hotel {
+    color: var(--light-blue);
+    font-family: fuggles;
+    position: absolute;
+    top: 7rem;
+}
+
+.hotel:hover{
+    /* transition: 0 0 30px ; */
+    box-shadow: 0 0 30px var(--light-blue);
+    transform: scale(X);
+}
+
+.hotel h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.hotel p { 
+    margin-bottom: 1%;
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: dancing script;
+    font-weight: 5%;
+    font-style: italic;
+}
+
+.row {
+    width: 100%;
+  
+}
+.col-3 .card {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-3 .card:hover{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.205);
+    transform: rotateZ(10deg);
+}
+
+.social {
+    display: flex;
+    background: var(--grey);
+    width: 100%;
+    height: 30vh;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 50px;
+}
+
+ .fa-hamburger {
+     font-size: 28px;
+     color: var(--light-blue);
+     margin-top: 55px;
+     margin-left: 80px;
+     color: var(--dark-purple);
+ }
+
+ .ready {
+     margin-left: 20rem;
+     color: var(--dark-purple);
+     margin-top: 50px;
+ }
+ .buton {
+     max-width: 80%;
+     width: 13%;
+     border-radius: 13px;
+     height: 50px;
+     margin-left: 18%;
+     margin-top: 50px;
+     border: var(--grey);
+     color: var(--circle);
+     background: var(--dark-purple);
+ }
+
+ .buton:hover {
+    transform: scale(1.1);
+    background-color: #34A1CD;
+ }
+
+ 
+ .linex {
+     width: 100%;
+     margin-left: 80px;
+     max-width: 79%;
+     border-bottom: 2px solid grey;
+     position: relative;
+     bottom: 100px;
+ }
+
+ .socs {
+     width: 100%;
+     display: flex;
+     padding-left: 10rem;
+     position: relative;
+     bottom: 3rem;
+     left: 0;
+     gap: 120px;
+     color: var(--blue);
+ }
+
+ .socs :hover {
+    transform: scale(1.2);
+}
+
+ .socs .fa-instagram{
+     color: var(--pink);
+ }
+
+ .socs .fa-phone-square{
+     color: var(--blue);
+ }
+
+ .socs .fa-twitter{
+     color: var(--blue);
+ }
+
+ .socs .fa-invision{
+     color: var(--blue);
+ }
+
+ .socs .fa-facebook-f{
+     color: var(--h1);
+ }
+
+ 
+ .socs .fa-github{
+     color: var(--circle);
+ }
+
+ .socs .fa-telegram-plane {
+     color: var(--blue);
+ }
+
+
